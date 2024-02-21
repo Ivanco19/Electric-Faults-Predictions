@@ -1,7 +1,7 @@
 # Electrical Fault Prediction
 
 ### Overview
-Electrical faults can have critical implications for power systems, leading to downtime, damage, and safety risks. In this project, we leverage machine learning techniques, specifically Support Vector Machines (SVM), Random Forest (RF), Decision Trees (DT), and K-Nearest Neighbors (KNN), to predict and prevent electrical faults. 
+Electrical faults can have critical implications for power systems, leading to downtime, damage, and safety risks. In this project, some machine learning techniques are implemented, specifically Support Vector Machines (SVM), Random Forest (RF), Decision Trees (DT), and K-Nearest Neighbors (KNN), to predict and prevent electrical faults. 
 
 Electrical systems are susceptible to various types of faults, which can be broadly classified into symmetric and asymmetric faults. Understanding these classifications is crucial for effective fault detection and prevention in power systems. Typical relative frequencies of occurrence of different kinds of faults in a power system are:
 
@@ -29,10 +29,12 @@ During a fault, both current and voltage undergo alterations. For instance, in a
 
 ### Project Scenarios
 * Scenario 1: Original Dataset
+
 In the first scenario, the models were trained and tested on the original dataset. While achieving satisfactory accuracies (around 90% for all models), challenges arose in distinguishing between LLL and LLL-G faults.
 
 * Scenario 2: Combined Fault Types
-Recognizing the difficulties in Scenario 1, we combined LLL and LLL-G faults into a single category in the second scenario. This modification resulted in significantly improved results, with accuracies, precision, and recall reaching approximately 99%.
+
+Recognizing the difficulties in Scenario 1, combined LLL and LLL-G faults into a single category in the second scenario. This modification resulted in significantly improved results, with accuracies, precision, and recall reaching approximately 99%.
 
 ### Cross-Validation
 Each algorithm underwent five fold cross-validation to ensure robust and reliable model performance.
