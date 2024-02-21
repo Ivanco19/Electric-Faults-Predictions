@@ -19,17 +19,13 @@ What happens during a fault?
 During a fault, both current and voltage undergo alterations. For instance, in a line-to-ground fault, current flows towards the ground, causing a reduction in voltage. In the case of bifasic faults, a short circuit occurs between two lines, resulting in significant fluctuations in both current and voltage. These abrupt changes serve as the distinctive signature for each type of fault. 
 
 ### Project Process
-1. Data Preprocessing
-Before diving into modeling, we preprocess the dataset to ensure its suitability for machine learning algorithms. This involves tasks such as handling missing values, adding or dropping columns, etc.
+1. Data Preprocessing: Before diving into modeling, we preprocess the dataset to ensure its suitability for machine learning algorithms. This involves tasks such as handling missing values, adding or dropping columns, etc.
 
-2. Data Visualization
-Exploratory Data Analysis (EDA) and visualization techniques are employed to gain insights into the dataset. Visualization aids in understanding patterns, correlations, and potential challenges in the data.
+2. Data Visualization: Exploratory Data Analysis (EDA) and visualization techniques are employed to gain insights into the dataset. Visualization aids in understanding patterns, correlations, and potential challenges in the data.
 
-3. Data Modeling
-This stage involves creating machine learning models using SVM, RF, DT, and KNN algorithms. Techniques such as label encoding and standard scaling are applied to prepare the data for training.
+3. Data Modeling: This stage involves creating machine learning models using SVM, RF, DT, and KNN algorithms. Techniques such as label encoding and standard scaling are applied to prepare the data for training.
 
-4. Data Evaluation
-The models are evaluated using key metrics such as accuracy, precision, and recall. The process involves a meticulous analysis of each model's performance to identify strengths and weaknesses.
+4. Data Evaluation: The models are evaluated using key metrics such as accuracy, precision, and recall. The process involves a meticulous analysis of each model's performance to identify strengths and weaknesses.
 
 ### Project Scenarios
 * Scenario 1: Original Dataset
